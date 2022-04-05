@@ -3,11 +3,14 @@ seeds = false
 [programs.localnet]
 test_escrow = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
 
+[programs.devnet]
+test_escrow = "4B2qNhMFbFtABusdne83HDZmF3Ze8QDWTbnNYcKmaE4C"
+
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "/Users/istar/.config/solana/id.json"
 
 [scripts]
